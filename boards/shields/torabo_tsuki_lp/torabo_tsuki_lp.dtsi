@@ -90,6 +90,7 @@
     pointing_listener: pointing_listener {
         compatible = "zmk,input-listener";
         status = "okay";
+        device = <&trackball>;
 
         scroller {
             layers = <3>; // とりあえず Layer 3 で動くように設定
