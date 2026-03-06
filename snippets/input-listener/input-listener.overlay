@@ -1,4 +1,9 @@
 &pointing_listener {
     status = "okay";
     device = <&pointing_device>;
+
+    scroller {
+        layers = <3>;
+        input-processors = <&zip_xy_to_scroll_mapper>;
+    };
 };
