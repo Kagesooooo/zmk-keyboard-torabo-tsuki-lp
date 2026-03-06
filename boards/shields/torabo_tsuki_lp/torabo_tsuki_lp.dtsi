@@ -89,7 +89,12 @@
 
     pointing_listener: pointing_listener {
         compatible = "zmk,input-listener";
-        status = "disabled";
+        status = "okay";
+
+        scroller {
+            layers = <3>; // とりあえず Layer 3 で動くように設定
+            input-processors = <&zip_xy_to_scroll_mapper>;
+        };
     };
 
     vbatt: vbatt {
