@@ -60,11 +60,11 @@
 
         layer_3 {
             bindings = <
-&trans     &trans        &trans            &trans            &trans             &trans                       &trans     &trans                &trans                 &trans             &trans     &trans
-&kp GRAVE  &kp EXCL      &kp AT            &kp HASH          &kp DOLLAR         &kp PERCENT                  &kp CARET  &kp AMPERSAND         &kp STAR               &kp MINUS          &kp UNDER  &trans
-&kp TILDE  &kp LC(LEFT)  &kp LC(RIGHT)     &kp LA(LG(LEFT))  &kp LA(LG(RIGHT))  &none        &trans  &trans  &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none              &kp EQUAL  &kp PLUS
-&trans     &none         &kp LC(UP_ARROW)  &none             &none              &none        &trans  &trans  &none      &none                 &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &none      &trans
-&trans     &trans        &trans            &trans            &none              &none        &trans  &trans  &trans     &trans                &trans                 &trans             &trans     &trans
+&trans        &trans        &trans            &trans            &trans             &trans                       &trans     &trans                &trans                 &trans             &trans      &trans
+&kp GRAVE     &kp EXCL      &kp AT            &kp HASH          &kp DOLLAR         &kp PERCENT                  &kp CARET  &kp AMPERSAND         &kp STAR               &kp MINUS          &kp UNDER   &trans
+&kp TILDE     &kp LC(LEFT)  &kp LC(RIGHT)     &kp LA(LG(LEFT))  &kp LA(LG(RIGHT))  &none        &trans  &trans  &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none              &kp EQUAL   &kp PLUS
+&trans        &none         &kp LC(UP_ARROW)  &none             &none              &none        &none   &trans  &none      &none                 &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &none       &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &trans            &none              &none        &trans  &trans  &trans     &trans                &trans                 &trans             &bt BT_CLR  &trans
             >;
         };
     };
